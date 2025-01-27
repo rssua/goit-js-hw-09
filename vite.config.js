@@ -12,6 +12,7 @@ export default defineConfig(({ command }) => {
     root: 'src',
     build: {
       sourcemap: true,
+      base: '/goit-js-hw-09/', // Додаємо базовий шлях
       rollupOptions: {
         input: glob.sync('./src/*.html'),
         output: {
