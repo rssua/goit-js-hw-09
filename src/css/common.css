@@ -74,3 +74,74 @@ ul {
 .gallery-image:hover {
   transform: scale(calc(376 / 360), calc(208 / 200));
 }
+
+.feedback-form {
+  display: inline-block;
+  padding: 24px;
+  background-color: #fff;
+}
+
+.feedback-form * {
+  display: block;
+}
+
+/* .feedback-form label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+} */
+
+.feedback-form input,
+.feedback-form textarea {
+  margin: 8px 0;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.feedback-form textarea {
+  height: 80px;
+}
+
+.feedback-form label:hover input,
+.feedback-form label:hover textarea {
+  border-color: #000;
+}
+
+.feedback-form label:active input,
+.feedback-form label:active textarea {
+  outline: none;
+  border-color: #808080;
+}
+
+.feedback-form button {
+  margin-top: 16px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.feedback-form button:hover {
+  background-color: #6c8cff;
+}
+
+.feedback-form button:active {
+  background-color: #4e75ff;
+  box-shadow: 0px 0px 2px 1px #09d9d9;
+}
