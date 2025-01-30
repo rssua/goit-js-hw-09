@@ -7,9 +7,34 @@
     <link rel="icon" type="image/svg+xml" href="/goit-js-hw-09/favicon.svg" />
     <script type="module" crossorigin src="/goit-js-hw-09/2-form.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/common-CvDY8Prt.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/common-DIK7SjDS.css">
   </head>
   <body>
-    <p><a class="back-link" href="./index.html">Go back</a></p>
+    <main>
+      <p><a class="back-link" href="./index.html">Go back</a></p>
+      <form class="feedback-form" autocomplete="off">
+        <label>
+          Email
+          <input type="email" name="email" autofocus />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="8"></textarea>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
   </body>
 </html>
+
+<!-- <form class="login-form">
+  <label>
+    Email
+    <input type="email" name="email" />
+  </label>
+  <label>
+    Password
+    <input type="password" name="password" />
+  </label>
+  <button type="submit">Login</button>
+</form> -->
